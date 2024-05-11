@@ -12,6 +12,6 @@
   "dependencies": {
     "clinic": "^13.0.0",
     "fastq": "^1.17.1",
-    "undici": "^6.6.2"
+    "undici": "^6.16.1"
   }
 }
