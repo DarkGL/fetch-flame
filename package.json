@@ -5,11 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "clinic-doctor": "clinic doctor --name doctor.html -- node bench.js",
-    "clinic-flame": "clinic flame -name flame.html -- node bench.js",
-    "clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench.js",
-    "dexnode": "dexnode bench.js",
-    "0x": "0x --quiet -- node ./bench.js"
+    "fetch:clinic-doctor": "clinic doctor --name doctor.html -- node bench.js",
+    "fetch:clinic-flame": "clinic flame -name flame.html -- node bench.js",
+    "fetch:clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench.js",
+    "fetch:dexnode": "dexnode bench.js",
+    "fetch:0x": "0x --quiet -- node ./bench.js",
+    "request:clinic-doctor": "clinic doctor --name doctor.html -- node bench-request.js",
+    "request:clinic-flame": "clinic flame -name flame.html -- node bench-request.js",
+    "request:clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench-request.js",
+    "request:dexnode": "dexnode bench-request.js",
+    "request:0x": "0x --quiet -- node ./bench-request.js"
   },
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
