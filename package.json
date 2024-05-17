@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "clinic-doctor": "clinic doctor --name doctor.html -- node bench.js && cp .clinic/doctor.html.clinic-doctor.html ./flame.html",
-    "clinic-flame": "clinic flame -name flame.html -- node bench.js && cp .clinic/flame.html.clinic-flame.html ./flame.html",
-    "clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench.js && cp .clinic/flame.html.clinic-flame.html ./flame.html",
+    "clinic-doctor": "clinic doctor --name doctor.html -- node bench.js",
+    "clinic-flame": "clinic flame -name flame.html -- node bench.js",
+    "clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench.js",
     "dexnode": "dexnode bench.js",
     "0x": "0x --quiet -- node ./bench.js"
   },
