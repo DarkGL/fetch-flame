@@ -5,14 +5,19 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "flame": "clinic flame --name flame.html -- node bench.js",
-    "dexnode": "dexnode bench.js"
+    "clinic-doctor": "clinic doctor --name doctor.html -- node bench.js && cp .clinic/doctor.html.clinic-doctor.html ./flame.html",
+    "clinic-flame": "clinic flame -name flame.html -- node bench.js && cp .clinic/flame.html.clinic-flame.html ./flame.html",
+    "clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench.js && cp .clinic/flame.html.clinic-flame.html ./flame.html",
+    "dexnode": "dexnode bench.js",
+    "0x": "0x --quiet -- node ./bench.js"
   },
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
   "dependencies": {
+    "0x": "^5.7.0",
     "clinic": "^13.0.0",
+    "dexnode": "^1.2.2",
     "fastq": "^1.17.1",
-    "undici": "^6.16.1"
+    "undici": "^6.17.0"
   }
 }
