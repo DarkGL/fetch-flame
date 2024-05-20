@@ -1,20 +1,23 @@
 {
-  "name": "fetch-flame",
+  "name": "undici-performance-research",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "fetch:clinic-doctor": "clinic doctor --name doctor.html -- node bench.js",
-    "fetch:clinic-flame": "clinic flame -name flame.html -- node bench.js",
-    "fetch:clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench.js",
-    "fetch:dexnode": "dexnode bench.js",
-    "fetch:0x": "0x --quiet -- node ./bench.js",
-    "request:clinic-doctor": "clinic doctor --name doctor.html -- node bench-request.js",
-    "request:clinic-flame": "clinic flame -name flame.html -- node bench-request.js",
-    "request:clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node bench-request.js",
-    "request:dexnode": "dexnode bench-request.js",
-    "request:0x": "0x --quiet -- node ./bench-request.js"
+    "fetch:clinic-doctor": "clinic doctor --name doctor.html -- node ./src/bench.js",
+    "fetch:clinic-flame": "clinic flame -name flame.html -- node ./src/bench.js",
+    "fetch:clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node ./src/bench.js",
+    "fetch:dexnode": "dexnode ./src/bench.js",
+    "fetch:0x": "0x --quiet -- node ./src/bench.js",
+    "request:clinic-doctor": "clinic doctor --name doctor.html -- node ./src/bench-request.js",
+    "request:clinic-flame": "clinic flame -name flame.html -- node ./src/bench-request.js",
+    "request:clinic-heapprofiler": "clinic -name heapprofiler.html heapprofiler -- node ./src/bench-request.js",
+    "request:dexnode": "dexnode ./src/bench-request.js",
+    "request:0x": "0x --quiet -- node ./src/bench-request.js",
+    "lint": "npx @biomejs/biome lint --apply ./src",
+    "format": "npx @biomejs/biome format --write ./src",
+    "check": "npx @biomejs/biome check --apply ./src"
   },
   "author": "Matteo Collina <hello@matteocollina.com>",
   "license": "MIT",
@@ -23,6 +26,9 @@
     "clinic": "^13.0.0",
     "dexnode": "^1.2.2",
     "fastq": "^1.17.1",
-    "undici": "^6.17.0"
+    "undici": "^6.18.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.7.3"
   }
 }
