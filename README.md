@@ -8,6 +8,10 @@ I'm open to any contribution, feel free to open an issue , pull request, discuss
 
 All scripts are available in the `package.json` scripts.
 
+### `server`
+
+`node ./src/server.js`
+
 ### `fetch`
 
 #### Clinic
