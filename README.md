@@ -59,3 +59,11 @@ All scripts are available in the `package.json` scripts.
 ## Dexnode output
 
 For analyzing dexnode output, I would recommend using [deoptexplorer-vscode](https://github.com/microsoft/deoptexplorer-vscode)
+
+## Recommended reading
+
+- [Profiling Node.js Applications](https://nodejs.org/en/learn/getting-started/profiling)
+- [Flame Graphs](https://nodejs.org/en/learn/diagnostics/flame-graphs#flame-graphs)
+- [Performance measurement APIs](https://nodejs.org/docs/latest/api/perf_hooks.html)
+- [V8 internals for JS developers](https://youtu.be/5UZzT_hgsl0?list=PLlIlO186Nn96dlpD431cTdMw6P4JCmLzB)
+- [V8 function optimization](https://erdem.pl/2019/08/v-8-function-optimization)
