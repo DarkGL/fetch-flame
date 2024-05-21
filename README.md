@@ -1,6 +1,6 @@
 # undici-performance-research
 
-This repository aims to help people interested in performance understand how undici works and how to improve it.
+This repository aims to help people interested in performance understand how [undici](https://github.com/nodejs/undici) works and how to improve it.
 
 I'm open to any contribution, feel free to open an issue , pull request, discussion or contact me on twitter [@DarkGL_](https://x.com/darkgl_)
 
