@@ -68,4 +68,5 @@ For analyzing dexnode output, I would recommend using [deoptexplorer-vscode](htt
 - [V8 internals for JS developers](https://youtu.be/5UZzT_hgsl0?list=PLlIlO186Nn96dlpD431cTdMw6P4JCmLzB)
 - [V8 function optimization](https://erdem.pl/2019/08/v-8-function-optimization)
 - [Overhead of Deoptimization Checks in the V8 JavaScript Engine](https://masc.soe.ucsc.edu/docs/iiswc16.pdf)
-- [Optimizing for V8 - Inlining, Deoptimizations](https://floitsch.blogspot.com/2012/03/optimizing-for-v8-inlining.html)
+- [deoptimize-reason.h](https://github.com/v8/v8/blob/main/src/deoptimizer/deoptimize-reason.h)
+- [Fast properties in V8](https://v8.dev/blog/fast-properties)
