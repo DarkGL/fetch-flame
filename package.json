@@ -26,7 +26,7 @@
     "clinic": "^13.0.0",
     "dexnode": "^1.2.2",
     "fastq": "^1.17.1",
-    "undici": "^6.18.1"
+    "undici": "github:DarkGL/undici#perf/convert-object-to-params"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3"
